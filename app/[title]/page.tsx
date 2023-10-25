@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Piece } from "../types";
 import Skeleton from "../components/Skeleton";
 
-export default function singleView() {
+export default function SingleView() {
   const [loading, setLoading] = useState<boolean>(true);
   const [piece, setPiece] = useState<Piece>();
   const path = usePathname();
@@ -21,6 +21,6 @@ export default function singleView() {
         setPiece(data as Piece);
         setLoading(false);
       });
-  }, []);
+  }, [title]);
   return loading ? <Skeleton /> : <DetailView piece={piece!} />;
 }
