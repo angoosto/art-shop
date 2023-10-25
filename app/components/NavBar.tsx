@@ -2,7 +2,7 @@ import NextLink from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-accent p-6">
+    <nav className="flex items-center justify-between bg-accent p-6">
       <div className="flex items-center flex-shrink-0 text-primary mr-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -20,19 +20,19 @@ const Navbar = () => {
         <div className="text-sm lg:flex-grow">
           <NextLink
             href="/"
-            className="block mt-4 lg:inline-block lg:mt-0 text-primary hover:underline mr-4"
+            className="mt-4 lg:inline-block lg:mt-0 text-primary hover:underline mr-4"
           >
             About
           </NextLink>
           <NextLink
             href="/shop"
-            className="block mt-4 lg:inline-block lg:mt-0 text-primary hover:underline mr-4"
+            className="mt-4 lg:inline-block lg:mt-0 text-primary hover:underline mr-4"
           >
             Shop
           </NextLink>
           <NextLink
             href="/"
-            className="block mt-4 lg:inline-block lg:mt-0 text-primary hover:underline"
+            className="mt-4 lg:inline-block lg:mt-0 text-primary hover:underline"
           >
             Contact
           </NextLink>
