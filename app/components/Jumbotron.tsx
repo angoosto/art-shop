@@ -1,7 +1,7 @@
 const Jumbotron = () => {
   return (
     <div
-      className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
+      className="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1456086272160-b28b0645b729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3705&q=80')",
