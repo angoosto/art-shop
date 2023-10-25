@@ -6,13 +6,13 @@ const Home: NextPage = () => {
   return (
     <div>
       <Jumbotron />
-      <div>
+      <section className="bg-primary w-full h-full">
         <div
-          className="flex justify-center items-center m-8 max-w-lg"
+          className="flex justify-center items-center p-8 max-w-lg"
           style={{
             marginLeft: "auto",
-            marginRight: "auto"
-        }}
+            marginRight: "auto",
+          }}
         >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
             culpa qui officia deserunt mollit anim id est laborum
           </p>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

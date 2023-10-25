@@ -23,7 +23,7 @@ const DetailView = ({ piece }: Props) => {
     return <p>Error</p>;
   }
   return (
-    <section className="overflow-hidden bg-white py-11 font-poppins dark:bg-gray-800">
+    <section className="overflow-hidden py-11 font-poppins bg-primary">
       <div className="max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4 md:w-1/2 ">
@@ -44,18 +44,18 @@ const DetailView = ({ piece }: Props) => {
           <div className="w-full px-4 md:w-1/2 ">
             <div className="lg:pl-20">
               <div className="mb-8 ">
-                <h2 className="max-w-xl mt-2 mb-6 text-2xl font-bold dark:text-gray-400 md:text-4xl">
+                <h2 className="max-w-xl mt-2 mb-6 text-2xl font-bold text-indigo-950 md:text-4xl">
                   <em>{piece.title}</em> - {d.getFullYear()}
                 </h2>
-                <p className="max-w-md mb-8 text-gray-700 dark:text-gray-400">
+                <p className="max-w-md mb-8 text-indigo-950">
                   {piece.description}
                 </p>
-                <p className="max-w-md mb-8 text-gray-700 dark:text-gray-400">
+                <p className="max-w-md mb-8 text-indigo-950">
                   Height: {piece.height.toFixed(0)} cm
                   <br />
                   Width: {piece.width.toFixed(0)} cm
                 </p>
-                <p className="inline-block text-4xl font-bold text-gray-700 dark:text-gray-400 ">
+                <p className="inline-block text-4xl font-bold text-indigo-950 ">
                   <span>
                     £
                     {piece.price.toLocaleString(undefined, {
@@ -67,7 +67,7 @@ const DetailView = ({ piece }: Props) => {
               <div className="flex flex-wrap items-center -mx-4 ">
                 <div className="w-full px-4 mb-4 lg:w-1/2 lg:mb-0">
                   <button
-                    className="flex items-center justify-center w-full p-4 text-blue-500 border border-blue-500 rounded-md dark:text-gray-200 dark:border-blue-600 hover:bg-blue-600 hover:border-blue-600 hover:text-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:hover:border-blue-700 dark:hover:text-gray-300"
+                    className="flex items-center justify-center w-full p-4 text-accent border border-accent rounded-md hover:bg-accent hover:text-gray-100"
                     onClick={handlePay}
                   >
                     Buy
