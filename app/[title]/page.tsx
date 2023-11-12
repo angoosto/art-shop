@@ -1,26 +1,8 @@
-"use client";
 import DetailView from "../components/DetailView";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-import { Piece } from "../types";
-import Skeleton from "../components/Skeleton";
+import { singlePiece } from "../api/ArtRepo";
 
-export default function SingleView() {
-  const [loading, setLoading] = useState<boolean>(true);
-  const [piece, setPiece] = useState<Piece>();
-  const path = usePathname();
-  const title = path?.substring(1);
-  useEffect(() => {
-    fetch("api/piece", {
-      headers: {
-        title: title || "",
-      },
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setPiece(data as Piece);
-        setLoading(false);
-      });
-  }, [title]);
-  return loading ? <Skeleton /> : <DetailView piece={piece!} />;
+export default async function SingleView({params} : {params: {title: string}}) {
+  const title = params.title;
+  const piece = await singlePiece(title)
+  return <DetailView piece={piece} />;
 }
