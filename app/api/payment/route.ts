@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
         ],
         mode: 'payment',
         success_url: `${host}/order`,
-        cancel_url: `${host}`,
+        cancel_url: `${host}/${piece.title}`,
     })
     return NextResponse.json(session.url)
 }
