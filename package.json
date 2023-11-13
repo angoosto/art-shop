@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
     "@ngneat/falso": "^7.1.1",
     "@prisma/client": "^5.3.1",
     "@stripe/react-stripe-js": "^2.3.1",
