@@ -27,11 +27,11 @@ const Home: NextPage = () => {
             Breakfast where we told our story to Naga Munchetti and Charlie Stayt and Heidi went viral when she broke wind! 
 
             My most recent works focus on gardens around Worcestershire and The Cotswolds, which I visited during my pregnancy and since having Heidi. We are surrounded by beautiful places 
-            and it is great to be able to bring them to life on canvas. I paint from my own photographs using acrylics. I have been recently inspired by David Hockney's style and techniques, 
-            using his book "A Bigger Picture" as a point of reference. I particularly like to focus on large expanses of foliage and do so in a bold, colourful style. I have very much enjoyed 
+            and it is great to be able to bring them to life on canvas. I paint from my own photographs using acrylics. I have been recently inspired by David Hockney&aposs style and techniques, 
+            using his book &quotA Bigger Picture&quot as a point of reference. I particularly like to focus on large expanses of foliage and do so in a bold, colourful style. I have very much enjoyed 
             painting on a reasonably large scale as it enables me to be more expressive within my work.
 
-            I have always been inspired by my soon to be brother in law, Angus. He is extremely fashionable and has a great aura.
+            I have always been inspired by my soon to be brother in law, Angus. He is extremely fashionable and gives off a great aura.
             
             My portfolio is still growing, but I hope you enjoy what I have produced to date. 
            
