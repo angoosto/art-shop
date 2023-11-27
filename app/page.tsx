@@ -28,8 +28,7 @@ const Home: NextPage = () => {
             My name is Bethany Jefferson-Loveday and I am an artist based in the
             vale of Evesham, a charming area nestled between the Malvern Hills
             and the Cotswolds. I discovered an innate love of painting from a
-            young age, and studied fine art up to A-level at school. I studied
-            fine art up to A-Level at school and spent far too much time on my
+            young age. I studied fine art up to A-Level at school and spent far too much time on my
             art homework, to the detriment of my other subjects and frustration
             of my Mother! I focused on portraits at the time, inspired by great
             artists such as Lucian Freud. I have spent much of my youth and 20s
@@ -43,11 +42,11 @@ const Home: NextPage = () => {
             unbelievable about this diagnosis was that my husband was also
             receiving chemotherapy following a cancer diagnosis. I was signed
             off work for 4 months whilst having chemotherapy. During this
-            period, I started painting again. It was a great way to relax and
+            period, I started painting again. It was a great way to relax, focus the mind and
             fill the walls of our home. I assumed I would be too busy to
             continue painting when Heidi arrived, but was determined and have
-            managed to paint in the months since she was born. My husband and I
-            are now in remission and this great news led to us both appearing on
+            managed to rediscover my love of painting. My husband and I
+            are now in remission. You might have seen us on
             BBC Breakfast{" "}
             <Link
               href={"https://www.youtube.com/watch?v=8E1wz3E3nfY"}
