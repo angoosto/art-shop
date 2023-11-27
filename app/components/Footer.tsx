@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full bg-accent p-2 text-center text-primary">
-        © 2023 Copyright
+        © {new Date().getFullYear() } Copyright
       </div>
     </footer>
   );

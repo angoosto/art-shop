@@ -22,7 +22,7 @@ const Home: NextPage = () => {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: 'auto', height: 'auto' }}
+            style={{ width: "auto", height: "auto" }}
           />
           <p>
             My name is Bethany Jefferson-Loveday and I am an artist based in the
@@ -48,8 +48,14 @@ const Home: NextPage = () => {
             continue painting when Heidi arrived, but was determined and have
             managed to paint in the months since she was born. My husband and I
             are now in remission and this great news led to us both appearing on
-            BBC Breakfast <Link href={'https://www.youtube.com/watch?v=8E1wz3E3nfY'} style={{textDecoration: 'underline'}}>where we told our story to Naga Munchetti and Charlie
-            Stayt and Heidi went viral when she broke wind!</Link>  
+            BBC Breakfast{" "}
+            <Link
+              href={"https://www.youtube.com/watch?v=8E1wz3E3nfY"}
+              style={{ textDecoration: "underline" }}
+            >
+              where we told our story to Naga Munchetti and Charlie Stayt and
+              Heidi went viral when she broke wind!
+            </Link>
           </p>
 
           <p>
