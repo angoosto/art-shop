@@ -46,7 +46,7 @@ const Home: NextPage = () => {
             fill the walls of our home. I assumed I would be too busy to
             continue painting when Heidi arrived, but was determined and have
             managed to rediscover my love of painting. My husband and I
-            are now in remission. You might have seen us on
+            are now in remission and unbelievably ended up on
             BBC Breakfast{" "}
             <Link
               href={"https://www.youtube.com/watch?v=8E1wz3E3nfY"}
