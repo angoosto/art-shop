@@ -71,8 +71,12 @@ const Home: NextPage = () => {
           </p>
 
           <p>
-            My portfolio is still growing, but I hope you enjoy what I have
-            produced to date.
+            Thanks for taking the time to look at my work. Any questions, please reach out. 
+            Join my newsletter{" "} 
+            <Link
+              href={"https://www.youtube.com/watch?v=8E1wz3E3nfY"}
+              style={{ textDecoration: "underline" }}
+            >
           </p>
         </div>
       </section>
