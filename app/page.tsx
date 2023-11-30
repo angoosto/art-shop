@@ -97,13 +97,11 @@ const Home: NextPage = () => {
             }}
           >
             <Image
-              className="float-left p-3"
+              className="md:float-left m-auto p-3"
               src="/bethany-loveday-title-1683291712.jpg"
               alt={"Artist picture"}
-              width={0}
-              height={0}
-              sizes="200vw"
-              style={{ width: "auto", height: "auto" }}
+              width={200}
+              height={220}
             />
             <p>
               My name is Bethany Jefferson-Loveday and I am an artist based in
