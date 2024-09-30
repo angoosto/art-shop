@@ -14,8 +14,7 @@ const Jumbotron = () => {
       >
         <div className="flex h-full items-center justify-center">
           <div className="text-primary">
-            <h2 className="mb-4 text-4xl font-semibold">Art Shop</h2>
-            <h4 className="mb-6 text-xl font-semibold">Where you can buy art</h4>
+            <h2 className="mb-4 text-4xl font-semibold">Bethany Loveday Art</h2>
           </div>
         </div>
       </div>
