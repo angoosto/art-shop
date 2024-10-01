@@ -1,5 +1,6 @@
 import {
     randBetweenDate,
+    randBoolean,
     randFloat,
     randProductDescription,
     randWord,
@@ -20,6 +21,7 @@ const main = async () => {
                     width: randFloat(),
                     price: randFloat(),
                     year: randBetweenDate({ from: new Date('2020/01/01'), to: new Date() }),
+                    sold: randBoolean()
                 }
             })
         }

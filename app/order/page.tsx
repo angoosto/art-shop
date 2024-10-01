@@ -6,7 +6,7 @@ import { HiCheckCircle } from "react-icons/hi";
 export default function Order() {
     const router = useRouter();
     return (
-        <div>
+        <div className="bg-primary">
             <Head>
                 <title>Thank You</title>
                 <meta name="description" content="All Products" />

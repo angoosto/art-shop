@@ -20,7 +20,7 @@ const ArtCard = ({ piece }: Props) => {
           priority
         />
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 text-indigo-950">{piece.title}</div>
+          <div className="font-bold text-xl mb-2 text-indigo-950"><i>{piece.title}</i> ({piece.year.getFullYear()})</div>
           <p className="text-gray-700 text-base text-indigo-950">{piece.description}</p>
         </div>
         <div className="px-6 pt-4 pb-2">

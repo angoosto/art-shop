@@ -18,4 +18,5 @@ model Piece {
   height       Float
   width        Float
   price        Float
+  sold         Boolean  @default(false)
 }

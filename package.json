@@ -20,7 +20,8 @@
     "react-dom": "latest",
     "react-hot-toast": "latest",
     "react-icons": "latest",
-    "stripe": "latest"
+    "stripe": "latest",
+    "ts-node": "latest"
   },
   "devDependencies": {
     "@types/react": "latest",

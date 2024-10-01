@@ -44,6 +44,9 @@ importers:
       stripe:
         specifier: latest
         version: 16.12.0
+      ts-node:
+        specifier: latest
+        version: 10.9.2(@types/node@20.10.0)(typescript@5.3.2)
     devDependencies:
       '@types/react':
         specifier: latest
@@ -59,7 +62,7 @@ importers:
         version: 5.20.0
       tailwindcss:
         specifier: latest
-        version: 3.4.13(ts-node@10.9.1(@types/node@20.10.0)(typescript@5.3.2))
+        version: 3.4.13(ts-node@10.9.2(@types/node@20.10.0)(typescript@5.3.2))
       typescript:
         specifier: latest
         version: 5.3.2
@@ -1550,8 +1553,8 @@ packages:
   ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
 
-  ts-node@10.9.1:
-    resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
+  ts-node@10.9.2:
+    resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
@@ -1673,7 +1676,6 @@ snapshots:
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
-    optional: true
 
   '@eslint-community/eslint-utils@4.4.0(eslint@8.54.0)':
     dependencies:
@@ -1765,7 +1767,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
-    optional: true
 
   '@next/env@14.2.13': {}
 
@@ -1905,17 +1906,13 @@ snapshots:
 
   '@tanstack/virtual-core@3.10.8': {}
 
-  '@tsconfig/node10@1.0.9':
-    optional: true
+  '@tsconfig/node10@1.0.9': {}
 
-  '@tsconfig/node12@1.0.11':
-    optional: true
+  '@tsconfig/node12@1.0.11': {}
 
-  '@tsconfig/node14@1.0.3':
-    optional: true
+  '@tsconfig/node14@1.0.3': {}
 
-  '@tsconfig/node16@1.0.4':
-    optional: true
+  '@tsconfig/node16@1.0.4': {}
 
   '@types/json5@0.0.29': {}
 
@@ -1978,8 +1975,7 @@ snapshots:
     dependencies:
       acorn: 8.11.2
 
-  acorn-walk@8.3.0:
-    optional: true
+  acorn-walk@8.3.0: {}
 
   acorn@8.11.2: {}
 
@@ -2003,8 +1999,7 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  arg@4.1.3:
-    optional: true
+  arg@4.1.3: {}
 
   arg@5.0.2: {}
 
@@ -2174,8 +2169,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  create-require@1.1.1:
-    optional: true
+  create-require@1.1.1: {}
 
   cross-spawn@7.0.3:
     dependencies:
@@ -2219,8 +2213,7 @@ snapshots:
 
   didyoumean@1.2.2: {}
 
-  diff@4.0.2:
-    optional: true
+  diff@4.0.2: {}
 
   dir-glob@3.0.1:
     dependencies:
@@ -2873,8 +2866,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  make-error@1.3.6:
-    optional: true
+  make-error@1.3.6: {}
 
   merge2@1.4.1: {}
 
@@ -3040,13 +3032,13 @@ snapshots:
       camelcase-css: 2.0.1
       postcss: 8.4.31
 
-  postcss-load-config@4.0.2(postcss@8.4.31)(ts-node@10.9.1(@types/node@20.10.0)(typescript@5.3.2)):
+  postcss-load-config@4.0.2(postcss@8.4.31)(ts-node@10.9.2(@types/node@20.10.0)(typescript@5.3.2)):
     dependencies:
       lilconfig: 3.0.0
       yaml: 2.3.4
     optionalDependencies:
       postcss: 8.4.31
-      ts-node: 10.9.1(@types/node@20.10.0)(typescript@5.3.2)
+      ts-node: 10.9.2(@types/node@20.10.0)(typescript@5.3.2)
 
   postcss-nested@6.0.1(postcss@8.4.31):
     dependencies:
@@ -3287,7 +3279,7 @@ snapshots:
 
   tabbable@6.2.0: {}
 
-  tailwindcss@3.4.13(ts-node@10.9.1(@types/node@20.10.0)(typescript@5.3.2)):
+  tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.10.0)(typescript@5.3.2)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -3306,7 +3298,7 @@ snapshots:
       postcss: 8.4.31
       postcss-import: 15.1.0(postcss@8.4.31)
       postcss-js: 4.0.1(postcss@8.4.31)
-      postcss-load-config: 4.0.2(postcss@8.4.31)(ts-node@10.9.1(@types/node@20.10.0)(typescript@5.3.2))
+      postcss-load-config: 4.0.2(postcss@8.4.31)(ts-node@10.9.2(@types/node@20.10.0)(typescript@5.3.2))
       postcss-nested: 6.0.1(postcss@8.4.31)
       postcss-selector-parser: 6.0.13
       resolve: 1.22.8
@@ -3336,7 +3328,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-node@10.9.1(@types/node@20.10.0)(typescript@5.3.2):
+  ts-node@10.9.2(@types/node@20.10.0)(typescript@5.3.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.9
@@ -3353,7 +3345,6 @@ snapshots:
       typescript: 5.3.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
-    optional: true
 
   tsconfig-paths@3.14.2:
     dependencies:
@@ -3422,8 +3413,7 @@ snapshots:
 
   uuid@8.3.2: {}
 
-  v8-compile-cache-lib@3.0.1:
-    optional: true
+  v8-compile-cache-lib@3.0.1: {}
 
   which-boxed-primitive@1.0.2:
     dependencies:
@@ -3473,7 +3463,6 @@ snapshots:
 
   yaml@2.3.4: {}
 
-  yn@3.1.1:
-    optional: true
+  yn@3.1.1: {}
 
   yocto-queue@0.1.0: {}
